@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyShopDemand</string>
+    <string name="main_activity_1">Get Started</string>
+    <string name="main_activity_2">Grocery</string>
+    <string name="main_activity_3">At your phone</string>
+    <string name="main_activity_4">Manage customer\'s demands</string>
+    <string name="client_activity">List of customers</string>
+    <string name="demandes_activity_detail">Demand detail</string>
+    <string name="demandes_activity_name">"Full name : "</string>
+    <string name="demandes_activity_email">Email :</string>
+    <string name="demandes_activity_phone">Phone :</string>
+    <string name="demandes_activity_client">Client</string>
+    <string name="demande_activity_detail">Demand detail</string>
+    <string name="demande_activity_valider">Validate</string>
+    <string name="demande_activity_annuler">Abort</string>
+    <string name="demandes_activity_more">More Detail</string>
+    <string name="demande_activity_title">Title : </string>
+    <string name="demande_activity_description">Description : </string>
+</resources>

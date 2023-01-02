@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MyShopDemand</string>
+    <string name="main_activity_1">Commencer</string>
+    <string name="main_activity_2">Epicerie</string>
+    <string name="main_activity_3">Sur ton téléphone</string>
+    <string name="main_activity_4">Gérer les demandes des clients</string>
+    <string name="client_activity">La liste des clients ayant des demandes Actifs</string>
+    <string name="demandes_activity_detail">Détails de la commande</string>
+    <string name="demandes_activity_name">"Nom et prénom : "</string>
+    <string name="demandes_activity_email">Email :</string>
+    <string name="demandes_activity_phone">Téléphone :</string>
+    <string name="demandes_activity_client">Client</string>
+    <string name="demande_activity_detail">Details de La Demande</string>
+    <string name="demande_activity_valider">Valider</string>
+    <string name="demande_activity_annuler">Annuler</string>
+    <string name="demandes_activity_more">Plus de détail</string>
+    <string name="demande_activity_title">Titre : </string>
+    <string name="demande_activity_description">Description : </string>
+
+</resources>
