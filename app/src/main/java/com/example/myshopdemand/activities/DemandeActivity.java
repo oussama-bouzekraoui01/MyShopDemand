@@ -24,14 +24,14 @@ import java.util.Set;
 public class DemandeActivity extends AppCompatActivity {
 
 
-    Demande d1 = new Demande(1l,"2L Eau Minéral","Achat d'Eau", Status.PENDING, false);
-    Demande d2 = new Demande(2l,"3L Lait","Achat d'Eau", Status.PENDING, false);
-    Demande d3 = new Demande(3l,"30 Oeufs","Achat d'Eau", Status.PENDING, false);
-    Demande d4 = new Demande(4l,"2Kg Pomme","Achat d'Eau", Status.PENDING, false);
-    Demande d5 = new Demande(1l,"1Kg Banane","Achat d'Eau", Status.PENDING, false);
-    Demande d6 = new Demande(2l,"Biscuit","Achat d'Eau", Status.PENDING, false);
-    Demande d7 = new Demande(3l,"Frommage","Achat d'Eau", Status.PENDING, false);
-    Demande d8 = new Demande(4l,"1kg Viande","Achat d'Eau", Status.PENDING, false);
+    Demande d1 = new Demande(1l,"2L Eau Minéral", false);
+    Demande d2 = new Demande(2l,"3L Lait", false);
+    Demande d3 = new Demande(3l,"30 Oeufs", false);
+    Demande d4 = new Demande(4l,"2Kg Pomme", false);
+    Demande d5 = new Demande(1l,"1Kg Banane", false);
+    Demande d6 = new Demande(2l,"Biscuit", false);
+    Demande d7 = new Demande(3l,"Frommage", false);
+    Demande d8 = new Demande(4l,"1kg Viande", false);
 
 
     Demande[] demandes = {d1,d2,d3,d4,d5,d6,d7,d8};;

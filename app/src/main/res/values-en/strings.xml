@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">MyShopDemand</string>
     <string name="main_activity_1">Get Started</string>
-    <string name="main_activity_2">Grocery</string>
+    <string name="main_activity_2">Grocery Shop</string>
     <string name="main_activity_3">At your phone</string>
     <string name="main_activity_4">Manage customer\'s demands</string>
     <string name="client_activity">List of customers</string>

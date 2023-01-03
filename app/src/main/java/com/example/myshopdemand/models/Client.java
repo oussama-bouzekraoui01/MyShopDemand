@@ -1,32 +1,51 @@
 package com.example.myshopdemand.models;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Client {
 
-    private String firstname;
-    private String lastname;
+    private int clientId;
+    private String firstName;
+    private String lastName;
     private String phone;
     private String email;
-    private ArrayList<Demande> demandes;
+    private HashMap<String,Demande> Demandes;
 
-
-
-
-    public String getFirstname() {
-        return firstname;
+    public Client() {
     }
 
-    public void setFirstname(String firstname) {
-        this.firstname = firstname;
+    public Client(int clientId, String firstName, String lastName, String phone, String email, HashMap<String, Demande> demandes) {
+        this.clientId = clientId;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.phone = phone;
+        this.email = email;
+        Demandes = demandes;
     }
 
-    public String getLastname() {
-        return lastname;
+    public int getClientId() {
+        return clientId;
     }
 
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
+    public void setClientId(int clientId) {
+        this.clientId = clientId;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public String getPhone() {
@@ -45,20 +64,11 @@ public class Client {
         this.email = email;
     }
 
-    public ArrayList<Demande> getDemandes() {
-        return demandes;
+    public HashMap<String, Demande> getDemandes() {
+        return Demandes;
     }
 
-    public void setDemandes(ArrayList<Demande> demandes) {
-        this.demandes = demandes;
-    }
-
-    public Client(String firstname, String lastname, String phone, String email, ArrayList<Demande> demandes) {
-
-        this.firstname = firstname;
-        this.lastname = lastname;
-        this.phone = phone;
-        this.email = email;
-        this.demandes = demandes;
+    public void setDemandes(HashMap<String,Demande> demandes) {
+        Demandes = demandes;
     }
 }

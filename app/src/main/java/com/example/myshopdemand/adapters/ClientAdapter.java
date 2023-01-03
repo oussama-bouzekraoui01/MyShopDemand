@@ -41,7 +41,7 @@ public class ClientAdapter extends ArrayAdapter<Client> {
         int id = R.drawable.image_profile;
 
         image.setImageResource(id);
-        fullName.setText(client.getFirstname() + " " + client.getLastname());
+        fullName.setText(client.getFirstName() + " " + client.getLastName());
         textDemande.setText("Test");
 
         return convertView;
